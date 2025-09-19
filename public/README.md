@@ -1,0 +1,1 @@
+# VibeOS Static Assets
