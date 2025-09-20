@@ -50,11 +50,11 @@ const DemoSection = memo(function DemoSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-mono mb-4">
-            <span className="text-terminal-green glow-intense terminal-gradient">Natural Language</span> Meets{" "}
-            <span className="text-white">Vibe Coding</span>
+            <span className="text-terminal-green glow-intense terminal-gradient">Learn Together</span> in{" "}
+            <span className="text-white">Flow State</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            No more memorizing commands. Just describe what you want.
+            Join a community where developers share knowledge, techniques, and help each other stay in flow.
           </p>
         </div>
 

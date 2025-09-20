@@ -2,39 +2,39 @@ import { memo, useMemo } from "react";
 
 const features = [
   {
-    title: "Zero Setup Time",
-    description: "Boot directly into your coding environment. All tools pre-configured and ready.",
-    icon: "⚡",
+    title: "Daily Flow Sessions",
+    description: "Join scheduled coding sessions with fellow developers. Share screens, learn together.",
+    icon: "👥",
     gradient: "from-yellow-500 to-orange-500",
   },
   {
-    title: "Natural Language Everything",
-    description: "No commands to memorize. Just describe what you want in plain English.",
-    icon: "💬",
+    title: "Mentor Network",
+    description: "Connect with experienced developers. Get guidance, code reviews, and career advice.",
+    icon: "🎓",
     gradient: "from-green-500 to-emerald-500",
   },
   {
-    title: "AI-First Development",
-    description: "Claude Code, Copilot, and more built into the OS. AI assistance at kernel level.",
-    icon: "🤖",
+    title: "Project Collaboration",
+    description: "Work on open source projects together. Build your portfolio with community support.",
+    icon: "🤝",
     gradient: "from-blue-500 to-cyan-500",
   },
   {
-    title: "Flow State Optimized",
-    description: "No notifications, no distractions. Stay in the zone for hours.",
+    title: "Flow State Techniques",
+    description: "Learn proven methods to enter and maintain deep focus. Workshops, guides, and tools.",
     icon: "🧘",
     gradient: "from-purple-500 to-pink-500",
   },
   {
-    title: "Instant Context Switching",
-    description: "Jump between projects seamlessly. Your environment follows your thoughts.",
-    icon: "🔄",
+    title: "Knowledge Sharing",
+    description: "Share discoveries, tips, and solutions. Build collective wisdom that benefits everyone.",
+    icon: "💡",
     gradient: "from-indigo-500 to-purple-500",
   },
   {
-    title: "Open Source Forever",
-    description: "Built by the community, for the community. Fork it, hack it, make it yours.",
-    icon: "🌍",
+    title: "Exclusive Resources",
+    description: "Access member-only content, tools, and early previews. Premium learning materials.",
+    icon: "🔐",
     gradient: "from-red-500 to-pink-500",
   },
 ];
@@ -46,10 +46,10 @@ const FeaturesGrid = memo(function FeaturesGrid() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-mono mb-4">
-            Built for <span className="text-terminal-green glow-intense">Vibe Coding</span>
+            Community <span className="text-terminal-green glow-intense">Benefits</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Every feature designed to keep you in flow state.
+            What you get when you join our developer flow state community.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ const FeaturesGrid = memo(function FeaturesGrid() {
               <span className="relative inline-flex rounded-full h-3 w-3 bg-terminal-green shadow-glow-sm"></span>
             </span>
             <span className="text-terminal-green font-mono glow">
-              Currently in Alpha. Join 1,337 developers already vibing.
+              Join 1,337+ developers already building together in flow state.
             </span>
           </div>
         </div>

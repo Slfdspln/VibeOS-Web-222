@@ -1,3 +1,4 @@
+import { VideoHero } from "@/components/video-hero";
 import { TerminalHero } from "@/components/terminal-hero";
 import {
   LazyDemoSection,
@@ -18,7 +19,11 @@ export default function Home() {
 
       <LazyScrollAnimations />
 
-      <TerminalHero />
+      <VideoHero />
+
+      <LazyIntersection className="fade-in-section">
+        <TerminalHero />
+      </LazyIntersection>
 
       <LazyIntersection className="fade-in-section">
         <LazyDemoSection />

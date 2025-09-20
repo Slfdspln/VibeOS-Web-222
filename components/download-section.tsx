@@ -4,11 +4,11 @@ function DownloadSection() {
       <div className="max-w-4xl mx-auto">
         <div className="glass-effect terminal-border-glow rounded-2xl p-12 text-center ambient-glow">
           <h2 className="text-4xl md:text-5xl font-bold font-mono mb-6">
-            Ready to <span className="text-terminal-green glow-intense terminal-gradient">Start Vibing?</span>
+            Ready to <span className="text-terminal-green glow-intense terminal-gradient">Join the Community?</span>
           </h2>
-          
+
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Join the alpha and help shape the future of developer computing.
+            Connect with fellow developers and experience what flow state coding is all about.
           </p>
 
           <div className="space-y-8">
@@ -34,8 +34,8 @@ function DownloadSection() {
               <p className="mt-2">Minimum 8GB RAM • 20GB disk space</p>
             </div>
 
-            <div className="pt-8 border-t border-terminal-green/20">
-              <h3 className="text-xl font-mono text-terminal-green glow mb-4">Join the Community</h3>
+            <div className="pt-20 mt-12 border-t border-terminal-green/20">
+              <h3 className="text-xl font-mono text-terminal-green glow mb-6">Join the Community</h3>
               <div className="flex flex-wrap gap-4 justify-center">
                 <a
                   href="https://discord.gg/vibeos"

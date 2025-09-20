@@ -86,20 +86,20 @@ const TerminalHero = memo(function TerminalHero() {
   }, [currentCommand, isTyping, animateTyping]);
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-terminal-bg to-terminal-gray px-6 overflow-hidden scanlines noise-overlay">
+    <section className="relative py-20 flex flex-col items-center justify-center bg-gradient-to-b from-terminal-gray to-terminal-bg px-6 overflow-hidden scanlines noise-overlay">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,255,65,0.08),transparent_50%)]" />
       <div className="absolute inset-0 ambient-glow" />
-      
+
       <div className="relative z-10 max-w-6xl mx-auto text-center">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 font-mono">
-          <span className="text-terminal-green glow-intense">Code</span> in{" "}
+        <h2 className="text-4xl md:text-6xl font-bold mb-6 font-mono">
+          <span className="text-terminal-green glow-intense">Experience</span>{" "}
           <span className="bg-clip-text text-transparent terminal-gradient">
-            Flow State
+            VibeOS
           </span>
-        </h1>
-        
-        <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto">
-          Stop configuring. Start vibing. The OS that keeps you in flow state.
+        </h2>
+
+        <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-3xl mx-auto">
+          See how our community members work in flow state with VibeOS
         </p>
 
         <div className="glass-effect terminal-border-glow rounded-lg p-6 max-w-3xl mx-auto mb-12 interactive-glow">
@@ -127,25 +127,8 @@ const TerminalHero = memo(function TerminalHero() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#download"
-            className="px-8 py-4 bg-terminal-green text-black font-bold rounded-lg hover:bg-terminal-green/90 transition-all hover:shadow-glow-lg hover:scale-105 animate-glow-pulse"
-          >
-            Download Alpha
-          </a>
-          <a
-            href="https://github.com/vibe-os/core"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-8 py-4 terminal-border-glow text-terminal-green font-bold rounded-lg hover:bg-terminal-green/10 transition-all interactive-glow"
-          >
-            Star on GitHub
-          </a>
-        </div>
-
-        <div className="mt-12 text-sm text-gray-500">
-          Built by developers, for developers. Open source forever.
+        <div className="mt-8 text-sm text-gray-500">
+          Watch real developers in action
         </div>
       </div>
 
