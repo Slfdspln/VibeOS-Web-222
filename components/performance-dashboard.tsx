@@ -49,8 +49,8 @@ export function PerformanceDashboard({ show = process.env.NODE_ENV === 'developm
 
   const formatValue = (key: string, value: number | null) => {
     if (value === null) return "Measuring...";
-    const unit = key === 'CLS' ? '' : 'ms';
-    return `${value.toFixed(key === 'CLS' ? 3 : 0)}${unit}`;
+    const unit = key === 'cls' ? '' : 'ms';
+    return `${value.toFixed(key === 'cls' ? 3 : 0)}${unit}`;
   };
 
   return (
@@ -177,9 +177,9 @@ export function PerformanceReporter() {
         if (typeof gtag !== 'undefined') {
           gtag('event', 'performance_analysis', {
             custom_parameter_score: analysis.score,
-            custom_parameter_lcp: analysis.metrics.LCP.value,
-            custom_parameter_fid: analysis.metrics.FID.value,
-            custom_parameter_cls: analysis.metrics.CLS.value,
+            custom_parameter_lcp: analysis.metrics.lcp.value,
+            custom_parameter_fid: analysis.metrics.fid.value,
+            custom_parameter_cls: analysis.metrics.cls.value,
           });
         }
       });

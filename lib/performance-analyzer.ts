@@ -38,12 +38,12 @@ export class PerformanceAnalyzer {
   private getMetricWeight(metric: keyof PerformanceMetrics): number {
     // Weights based on Core Web Vitals importance and user experience impact
     const weights = {
-      LCP: 0.25, // Core Web Vital
-      FID: 0.25, // Core Web Vital
-      CLS: 0.25, // Core Web Vital
-      FCP: 0.15,
-      TTFB: 0.05,
-      INP: 0.05,
+      lcp: 0.25, // Core Web Vital
+      fid: 0.25, // Core Web Vital
+      cls: 0.25, // Core Web Vital
+      fcp: 0.15,
+      ttfb: 0.05,
+      inp: 0.05,
     };
     return weights[metric];
   }
@@ -60,37 +60,37 @@ export class PerformanceAnalyzer {
   private generateRecommendations(metrics: PerformanceMetrics): string[] {
     const recommendations: string[] = [];
 
-    if (metrics.LCP !== null && metrics.LCP > PERFORMANCE_THRESHOLDS.LCP.good) {
+    if (metrics.lcp !== null && metrics.lcp > PERFORMANCE_THRESHOLDS.lcp.good) {
       recommendations.push(
         'Optimize Largest Contentful Paint by reducing server response time, using efficient caching, and optimizing critical resources.'
       );
     }
 
-    if (metrics.FID !== null && metrics.FID > PERFORMANCE_THRESHOLDS.FID.good) {
+    if (metrics.fid !== null && metrics.fid > PERFORMANCE_THRESHOLDS.fid.good) {
       recommendations.push(
         'Improve First Input Delay by reducing JavaScript execution time, breaking up long tasks, and using web workers.'
       );
     }
 
-    if (metrics.CLS !== null && metrics.CLS > PERFORMANCE_THRESHOLDS.CLS.good) {
+    if (metrics.cls !== null && metrics.cls > PERFORMANCE_THRESHOLDS.cls.good) {
       recommendations.push(
         'Reduce Cumulative Layout Shift by setting size attributes on images, reserving space for ads, and avoiding inserting content above existing content.'
       );
     }
 
-    if (metrics.FCP !== null && metrics.FCP > PERFORMANCE_THRESHOLDS.FCP.good) {
+    if (metrics.fcp !== null && metrics.fcp > PERFORMANCE_THRESHOLDS.fcp.good) {
       recommendations.push(
         'Optimize First Contentful Paint by reducing server response time, eliminating render-blocking resources, and optimizing CSS.'
       );
     }
 
-    if (metrics.TTFB !== null && metrics.TTFB > PERFORMANCE_THRESHOLDS.TTFB.good) {
+    if (metrics.ttfb !== null && metrics.ttfb > PERFORMANCE_THRESHOLDS.ttfb.good) {
       recommendations.push(
         'Improve Time to First Byte by optimizing server configuration, using a CDN, and implementing efficient caching strategies.'
       );
     }
 
-    if (metrics.INP !== null && metrics.INP > PERFORMANCE_THRESHOLDS.INP.good) {
+    if (metrics.inp !== null && metrics.inp > PERFORMANCE_THRESHOLDS.inp.good) {
       recommendations.push(
         'Optimize Interaction to Next Paint by reducing JavaScript execution time, optimizing event handlers, and using scheduler.postTask for non-critical work.'
       );
