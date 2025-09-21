@@ -155,7 +155,7 @@ export class PerformanceAnalyzer {
     const analysis = this.analyze(metrics);
 
     const report = `
-# VibeOS Performance Report
+# Flow State Community Performance Report
 
 ## Overall Score: ${analysis.score}/100 (${analysis.overall})
 

@@ -107,7 +107,7 @@ const DemoSection = memo(function DemoSection() {
 
               <div className="pt-4 border-t border-terminal-green/20">
                 <div className="text-xs text-gray-400 italic">
-                  No config files. No terminal commands. Just vibes.
+                  Learning together. Building together. Growing together.
                 </div>
               </div>
             </div>

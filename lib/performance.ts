@@ -77,7 +77,7 @@ class PerformanceMonitor {
   }
 
   public logToConsole() {
-    console.group('VibeOS Performance Metrics');
+    console.group('Flow State Community Performance Metrics');
     console.log('Cumulative Layout Shift (CLS):', this.metrics.cls?.toFixed(3) || 'measuring...');
     console.log('First Input Delay (FID):', this.metrics.fid ? `${this.metrics.fid.toFixed(2)}ms` : 'measuring...');
     console.log('First Contentful Paint (FCP):', this.metrics.fcp ? `${this.metrics.fcp.toFixed(2)}ms` : 'measuring...');

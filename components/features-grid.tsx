@@ -83,7 +83,7 @@ const FeaturesGrid = memo(function FeaturesGrid() {
               <span className="relative inline-flex rounded-full h-3 w-3 bg-terminal-green shadow-glow-sm"></span>
             </span>
             <span className="text-terminal-green font-mono glow">
-              Join 1,337+ developers already building together in flow state.
+              Prerequisites include a laptop and Wi-Fi. Simple as that.
             </span>
           </div>
         </div>

@@ -13,20 +13,20 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VibeOS - Code in Flow State",
-  description: "Open source OS that replaces traditional UI with natural language. Built for vibe coding.",
-  keywords: ["vibe coding", "flow state", "natural language OS", "developer tools", "open source"],
-  authors: [{ name: "VibeOS Community" }],
+  title: "Flow State Community - Code Together",
+  description: "Join a community of developers focused on flow state. Learn, build, and grow together.",
+  keywords: ["flow state", "developer community", "coding together", "pair programming", "mentorship"],
+  authors: [{ name: "Flow State Community" }],
   openGraph: {
-    title: "VibeOS - Code in Flow State",
-    description: "Stop configuring. Start vibing. The OS that keeps you in flow state.",
+    title: "Flow State Community - Code Together",
+    description: "Connect with developers who prioritize deep work and flow state. Learn, build, and vibe together.",
     type: "website",
     images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "VibeOS - Code in Flow State",
-    description: "Stop configuring. Start vibing. The OS that keeps you in flow state.",
+    title: "Flow State Community - Code Together",
+    description: "Connect with developers who prioritize deep work and flow state. Learn, build, and vibe together.",
     images: ["/og-image.png"],
   },
 };

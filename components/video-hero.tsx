@@ -40,10 +40,10 @@ export function VideoHero() {
         {/* Get Started CTA */}
         <div className="mb-12">
           <a
-            href="#community"
+            href="#download"
             className="px-12 py-4 bg-terminal-green text-black font-bold rounded-lg hover:bg-terminal-green/90 transition-all hover:shadow-glow-lg hover:scale-105 animate-glow-pulse text-lg"
           >
-            Get Started - Join Community
+            Join Our Community
           </a>
         </div>
 

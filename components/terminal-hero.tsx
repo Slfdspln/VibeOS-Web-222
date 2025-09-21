@@ -94,12 +94,12 @@ const TerminalHero = memo(function TerminalHero() {
         <h2 className="text-4xl md:text-6xl font-bold mb-6 font-mono">
           <span className="text-terminal-green glow-intense">Experience</span>{" "}
           <span className="bg-clip-text text-transparent terminal-gradient">
-            VibeOS
+            Flow State
           </span>
         </h2>
 
         <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-3xl mx-auto">
-          See how our community members work in flow state with VibeOS
+          See how our community members work in flow state together
         </p>
 
         <div className="glass-effect terminal-border-glow rounded-lg p-6 max-w-3xl mx-auto mb-12 interactive-glow">
@@ -107,7 +107,7 @@ const TerminalHero = memo(function TerminalHero() {
             <div className="w-3 h-3 rounded-full bg-red-500" />
             <div className="w-3 h-3 rounded-full bg-yellow-500" />
             <div className="w-3 h-3 rounded-full bg-green-500" />
-            <span className="ml-auto text-xs text-gray-500 font-mono">vibeOS terminal</span>
+            <span className="ml-auto text-xs text-gray-500 font-mono">community terminal</span>
           </div>
           
           <div className="font-mono text-left h-[60px]">
