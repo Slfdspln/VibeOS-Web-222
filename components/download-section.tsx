@@ -32,35 +32,6 @@ function DownloadSection() {
               <p className="mt-2">Just bring your passion for coding and learning</p>
             </div>
 
-            <div className="pt-20 mt-12 border-t border-terminal-green/20">
-              <h3 className="text-xl font-mono text-terminal-green glow mb-6">Join the Community</h3>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <a
-                  href="https://discord.gg/flowstate"
-                  className="px-6 py-2 text-gray-400 hover:text-terminal-green transition-all hover:glow"
-                >
-                  Discord
-                </a>
-                <a
-                  href="https://github.com/flowstate-community"
-                  className="px-6 py-2 text-gray-400 hover:text-terminal-green transition-all hover:glow"
-                >
-                  GitHub
-                </a>
-                <a
-                  href="https://twitter.com/flowstatecommunity"
-                  className="px-6 py-2 text-gray-400 hover:text-terminal-green transition-all hover:glow"
-                >
-                  Twitter
-                </a>
-                <a
-                  href="https://reddit.com/r/flowstatecoding"
-                  className="px-6 py-2 text-gray-400 hover:text-terminal-green transition-all hover:glow"
-                >
-                  Reddit
-                </a>
-              </div>
-            </div>
 
             <div className="mt-12 p-6 glass-effect rounded-lg terminal-border interactive-glow">
               <h4 className="font-mono text-terminal-green glow mb-2">For Community Members</h4>
